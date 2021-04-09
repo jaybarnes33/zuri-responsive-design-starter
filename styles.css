@@ -345,10 +345,19 @@ div.footer h6 {
   padding-top: 6rem;
 }
 
+@media (min-width: 601px) and (max-width: 800px) {
+  div.snapshot-box-content {
+    justify-content: center;
+  }
+  div.snapshot-box-content div {
+    flex-basis: 170px;
+  }
+}
 @media screen and (max-width: 600px) {
   .gallery-content,
   .snapshot-box-content {
     flex-direction: column;
+    justify-content: center;
   }
 
   .background {
