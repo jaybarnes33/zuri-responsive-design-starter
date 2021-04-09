@@ -358,8 +358,11 @@ div.footer h6 {
   div.snapshot-box-content div {
     flex-basis: 170px;
   }
+  .nav-bar button {
+    display: block;
+  }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #navlinks {
     display: none;
   }
